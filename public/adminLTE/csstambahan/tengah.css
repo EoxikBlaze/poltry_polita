@@ -1,0 +1,11 @@
+table {
+  width: 100%; /* Agar tabel memenuhi lebar kontainer */
+  margin: 0 auto; /* Rata tengah tabel */
+  border-collapse: collapse; /* Menghilangkan jarak antar border */
+}
+
+th {
+  text-align: center; /* Rata tengah teks dalam kolom */
+  padding: 8px; /* Memberikan sedikit ruang di dalam sel */
+  border: 1px solid #ddd; /* Memberikan border pada sel */
+}

@@ -1,0 +1,24 @@
+# CodeIgniter 4
+/system/test/
+
+# Environment (berisi konfigurasi lokal)
+/.env
+
+# Writable: cache, log, session, debugbar, upload
+/writable/cache/*
+/writable/logs/*
+/writable/session/*
+/writable/debugbar/*
+/writable/uploads/*
+!/writable/cache/index.html
+!/writable/logs/index.html
+!/writable/session/index.html
+!/writable/debugbar/index.html
+!/writable/uploads/index.html
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
